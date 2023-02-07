@@ -24,6 +24,13 @@
   height: 50px;
 }
 
+.logo{
+  border-radius: 50%;
+  border: 3px solid #f4f2f2;
+  padding: 1px;
+  width: 180px;
+}
+
 .about .prompt {
   width: 40%;
   font-size: 30px;
@@ -47,14 +54,26 @@
   color: #3e497a;
 }
 
-.skills .list {
-  list-style: none;
-  width: 60%;
+.skills-container {
+  display: table;
+  width: 40%;
+  text-align: center;
+}
+.skills-list {
+  display: table-cell;
+  padding: 16px;
 }
 
-.list span {
-  font-size: 20px;
+.skills-list svg {
+  
+  font-size: 40px;
+  margin: 5px;
+  color: 3e497a;
+  vertical-align: middle;
 }
+
+
+
 
 @media only screen and (max-width: 600px) {
   .about h2 {
@@ -70,14 +89,20 @@
   .skills {
     text-align: center;
   }
-  .list {
-    padding: 0;
+ 
+
+  .skills h1 {
+    font-size: 40px;
   }
 
-  .skills h2 {
-    font-size: 30px;
-  }
+
+
+  .skills .skills-list {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+    
 }
-.skillsPar{
-    font-size:18px;
+
 }
+

@@ -11,10 +11,12 @@ import {
 
 
 
+
 function Home() {
   return (
   <div className='home'>
     <div className='about'>
+    <img src="images/Pap-CV.jpg"  className="logo" alt='' />
       <h2>Hi, My Name is Kiriakos</h2>
       <div className='prompt'>
         <p>
@@ -29,17 +31,21 @@ function Home() {
     </div>
     <div className='skills'>
       <h1>Skills</h1>
+      <div className='skills-container'>
           <div className="skills-list">
             <p> <SiCsharp /> C#</p>           
             <p> <SiC /> C </p>
             <p> <SiReact /> React.js </p>
             <p> <SiJavascript /> JavaScript</p>
             <p> <SiHtml5 /> Html</p>
+          </div>
+          <div className="skills-list">
             <p> <SiCss3 /> Css</p>
             <p> <SiUnity /> Unity</p>
             <p> <SiScratch /> Scratch</p>
             <p> <FaJava /> Java</p>
           </div>
+        </div>
     </div>
   </div>
   );
