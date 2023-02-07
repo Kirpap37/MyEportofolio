@@ -5,9 +5,35 @@
   color: #3e497a;
 }
 
+.resume{
+	position:fixed;
+	width:150px;
+	height:45px;
+  padding: 8px 5px;
+  font-size: 21px;
+	top:9px;
+	right:100px;
+	background-color:#04AA6D;
+	color:rgb(255, 255, 255);
+	border-radius:50px;
+	box-shadow: 2px 2px 3px #999;
+  text-decoration: none;
+  z-index: 500;
+}
+
+.resume:hover {
+  background-color: #3e8e41
+}
+
+.resume:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .about {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 40px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,9 +102,15 @@
 
 
 @media only screen and (max-width: 600px) {
+ 
   .about h2 {
     font-size: 40px;
   }
+  .resume{
+    width: 40%;
+    left: 25%;
+  }
+
 
   .about .prompt {
     margin-top: 10px;

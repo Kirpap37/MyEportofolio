@@ -16,7 +16,10 @@ function Home() {
   return (
   <div className='home'>
     <div className='about'>
-    <img src="images/Pap-CV.jpg"  className="logo" alt='' />
+    <a href="/images/CV_KIRIAKOS_PAPADOPOULOS.pdf" target='_blank' className="resume"> 
+     <p style={{margin:10}}>My Resume</p>
+    </a>
+      <img src="images/Pap-CV.jpg"  className="logo" alt='' />
       <h2>Hi, My Name is Kiriakos</h2>
       <div className='prompt'>
         <p>
@@ -25,8 +28,7 @@ function Home() {
         individually as well as in a team. Eager to learn new technologies 
         and improve Programming skills
         </p>
-        <EmailIcon />
-        <LinkedInIcon />
+        
       </div>
     </div>
     <div className='skills'>
