@@ -10,7 +10,7 @@ function Footer() {
   return (
   <div className='footer'>
    <div className='footer-list'>
-    <h2>Contacs</h2>
+    <h2>Contact Me</h2>
      <div className='location'>
       <h4>
        <FaHome size={30} style={{color:"#fff" }}/>
