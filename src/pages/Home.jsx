@@ -16,7 +16,7 @@ function Home() {
   <div className='home'>
     <div className='about'>
     <a href={PDF} target='blank' className="resume"> 
-     <p style={{margin:10}}>My Resume</p>
+     <p style={{margin:3}}>My Resume</p>
     </a>
       <img src={CV}  className="logo" alt='' />
       <h2>Hi, My Name is Kiriakos</h2>
