@@ -68,9 +68,9 @@ function VirusAttack() {
     <div className="App">
       <h1>Virus Attack</h1>
       <Slideshow
-        imgs={[
-          Virus1,Virus2,Virus3,Virus4,Virus5,Virus6,Virus7,Virus8
-          ]}
+        imgs={
+          [Virus1,Virus2,Virus3,Virus4,Virus5,Virus6,Virus7,Virus8]
+        }
       />
        <div className='gameAbout'>
         <p>
