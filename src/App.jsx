@@ -1,5 +1,5 @@
 import "./App.css";
-import {BrowserRouter as Router , Routes , Route} from "react-router-dom";
+import { Routes , Route} from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import AlienInvasion from "./pages/AlienInvasion";
@@ -7,11 +7,14 @@ import VirusAttack from "./pages/VirusAttack";
 import Experience from "./pages/Experience";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+import { HashRouter } from 'react-router-dom';
 
 function App() {
   return(
      <div className="App">
-      <Router>
+      <HashRouter>
+      <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}/>
@@ -21,7 +24,7 @@ function App() {
           <Route path="/experience" element={<Experience />}/>
         </Routes>
         <Footer />
-      </Router> 
+      </HashRouter> 
      </div>
   );
   } 
