@@ -19,7 +19,7 @@ function Projects() {
         <li className="second">
          <Link to="/projects/AlienInvasion">
           <span className='overlay'>
-            <p className='title'>
+            <p className='title'> 
               Alien Invasion - Shoot 'Em Up Game 
             </p>
           </span>

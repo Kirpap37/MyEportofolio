@@ -16,7 +16,7 @@ function Footer() {
        <FaHome size={30} style={{color:"#fff" }}/>
         Georgiou Kondili 37 ,13231 Athens
         </h4> 
-     </div>
+     </div> 
      <div className='phone'>
       <h4>
         <FaPhone size={30} style={{color:"#fff" }}/>

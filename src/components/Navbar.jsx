@@ -8,7 +8,7 @@ import ReorderOutlinedIcon from '@mui/icons-material/ReorderOutlined';
 function Navbar() {
   const [expandNavbar, setExpandNavbar] =  useState(false);
 
-  const location = useLocation();
+  const location = useLocation(); 
 
   useEffect(() =>{
     setExpandNavbar(false);

@@ -16,7 +16,7 @@ import Alien10 from '../images/AlienImages/Alien10.png';
 const Thumbnail = ({ arr, image, index }) => {
   return (<div className="tumbnail">
     {
-      arr.map((imgsrc, i) => (
+      arr.map((imgsrc, i) => ( 
         <img
           key={i}
           height="50"

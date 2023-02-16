@@ -18,7 +18,7 @@ function Experience() {
           3rd High School of Petroupolis, Athens Greece  
          </h3>
          <p>High School Diploma</p>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> 
         <VerticalTimelineElement
          className="vertical-timeline-element--education"
          date="2016 - 2022"

@@ -19,7 +19,7 @@ function Home() {
     </a>
       <img src="assets/CV.jpg"  className="logo" alt='' />
       <h2>Hi, My Name is Kiriakos</h2>
-      <div className='prompt'>
+      <div className='prompt'> 
         <p>
         Passionate about Computer Sciences, innovation and Technology, 
         sedulous, hard worker, disciplined that can work under pressure 
