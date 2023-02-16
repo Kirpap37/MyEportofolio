@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyEportofolio/static/css/main.4aa5f3bd.css",
-    "main.js": "/MyEportofolio/static/js/main.06b36df3.js",
+    "main.js": "/MyEportofolio/static/js/main.1204f55d.js",
     "static/media/Alien1.png": "/MyEportofolio/static/media/Alien1.2d783b725b89c4da0b48.png",
     "static/media/Alien4.png": "/MyEportofolio/static/media/Alien4.186f6c69897a2471a268.png",
     "static/media/Alien7.png": "/MyEportofolio/static/media/Alien7.e4f2b725a7c43a3228f8.png",
@@ -13,10 +13,12 @@
     "static/media/Virus6.png": "/MyEportofolio/static/media/Virus6.d6fc324c57c511bb7dfd.png",
     "static/media/Virus8.png": "/MyEportofolio/static/media/Virus8.c28747885b2c4f12407a.png",
     "static/media/Virus7.png": "/MyEportofolio/static/media/Virus7.b0caadd345ff7053948e.png",
+    "static/media/CV_KIRIAKOS_PAPADOPOULOS.pdf": "/MyEportofolio/static/media/CV_KIRIAKOS_PAPADOPOULOS.3a2aa4030bca1da30d4f.pdf",
     "static/media/Virus4.png": "/MyEportofolio/static/media/Virus4.984e19563dff08090cc7.png",
     "static/media/Virus1.png": "/MyEportofolio/static/media/Virus1.1840dc17241846d665e9.png",
     "static/media/Alien5.png": "/MyEportofolio/static/media/Alien5.52b31ae3fe8b49722f26.png",
     "static/media/Alien10.png": "/MyEportofolio/static/media/Alien10.08aec7f18bf6eb9014c9.png",
+    "static/media/CV.jpg": "/MyEportofolio/static/media/CV.e6cb0531458345d4d828.jpg",
     "static/media/Alien3.png": "/MyEportofolio/static/media/Alien3.b08f67543b10ab54b3d9.png",
     "static/media/Virus.png": "/MyEportofolio/static/media/Virus.3943c6ff33397cdd95c6.png",
     "static/media/Alien9.png": "/MyEportofolio/static/media/Alien9.9dcc820b23e802a1b109.png",
@@ -24,10 +26,10 @@
     "static/media/Alien6.png": "/MyEportofolio/static/media/Alien6.7b1c8a07b750e3a3da40.png",
     "index.html": "/MyEportofolio/index.html",
     "main.4aa5f3bd.css.map": "/MyEportofolio/static/css/main.4aa5f3bd.css.map",
-    "main.06b36df3.js.map": "/MyEportofolio/static/js/main.06b36df3.js.map"
+    "main.1204f55d.js.map": "/MyEportofolio/static/js/main.1204f55d.js.map"
   },
   "entrypoints": [
     "static/css/main.4aa5f3bd.css",
-    "static/js/main.06b36df3.js"
+    "static/js/main.1204f55d.js"
   ]
 }
