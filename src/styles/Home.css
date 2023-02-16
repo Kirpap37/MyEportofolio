@@ -51,10 +51,10 @@
 }
 
 .logo{ 
-  border-radius: 50%;
-  border: 3px solid #f4f2f2;
+ 
   padding: 1px;
-  width: 180px;
+  width: 200px;
+  
 }
 
 .about .prompt {
