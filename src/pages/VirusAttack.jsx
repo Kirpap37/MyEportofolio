@@ -70,9 +70,28 @@ function VirusAttack() {
       <Slideshow
         imgs={[
           Virus1,Virus2,Virus3,Virus4,Virus5,Virus6,Virus7,Virus8
-        ]}
+          ]}
       />
+       <div className='gameAbout'>
+        <p>
+         <strong>Virus Attack</strong> is a 2D Android mobile high-scoring game. It is made using
+         C# in Unity and you can play it only by moving your finger.
+       </p>
+       <p>
+        The purpose of this game is to stay alive as much as you can, raise your score and 
+        collect as many coins as you can. You can do this by avoiding the enemy viruses that
+        are blocking your way. Your score increases by 1 point every second you are alive.
+        As soon as your finger touches an enemy, you lose and you can try again.
+       </p>
+       <p>
+        The coins you collect in every run can be exchanged for 1 of the 4 skins that are in the shop.So keep collecting them!
+       </p>
+        <p>
+        You download the Apk here<a href='https://drive.google.com/file/d/1wuUUKRCz9CyXUr5rXfMzBPO3WkdfoTwo/view' target='blank'>Download APK file </a> 
+        </p>
+      </div>
     </div>
+    
   );
 }
 

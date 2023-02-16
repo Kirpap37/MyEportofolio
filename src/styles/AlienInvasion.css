@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
 .active {
     border: 2px solid #1db9b9;
     transform: scale(1.3);
