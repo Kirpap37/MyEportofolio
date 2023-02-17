@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyEportofolio/static/css/main.84dbbd46.css",
-    "main.js": "/MyEportofolio/static/js/main.5c760aac.js",
+    "main.css": "/MyEportofolio/static/css/main.71784df8.css",
+    "main.js": "/MyEportofolio/static/js/main.b7c5006b.js",
     "static/media/Alien1.png": "/MyEportofolio/static/media/Alien1.2d783b725b89c4da0b48.png",
     "static/media/Alien4.png": "/MyEportofolio/static/media/Alien4.186f6c69897a2471a268.png",
     "static/media/Alien7.png": "/MyEportofolio/static/media/Alien7.e4f2b725a7c43a3228f8.png",
@@ -25,11 +25,11 @@
     "static/media/Virus2.png": "/MyEportofolio/static/media/Virus2.c2fe954d13bb97b8aa35.png",
     "static/media/Alien6.png": "/MyEportofolio/static/media/Alien6.7b1c8a07b750e3a3da40.png",
     "index.html": "/MyEportofolio/index.html",
-    "main.84dbbd46.css.map": "/MyEportofolio/static/css/main.84dbbd46.css.map",
-    "main.5c760aac.js.map": "/MyEportofolio/static/js/main.5c760aac.js.map"
+    "main.71784df8.css.map": "/MyEportofolio/static/css/main.71784df8.css.map",
+    "main.b7c5006b.js.map": "/MyEportofolio/static/js/main.b7c5006b.js.map"
   },
   "entrypoints": [
-    "static/css/main.84dbbd46.css",
-    "static/js/main.5c760aac.js"
+    "static/css/main.71784df8.css",
+    "static/js/main.b7c5006b.js"
   ]
 }
