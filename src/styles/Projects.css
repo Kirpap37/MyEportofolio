@@ -90,17 +90,17 @@
 
     .first {
         margin-bottom:10px;
-        width: 120px;
-        height: 120px;
+        width: 180px;
+        height: 180px;
         
     }
     .second {
         margin-bottom:10px;
-        width: 120px;
-        height: 120px;
+        width: 180px;
+        height: 180px;
           
       }
       .title{
-        font-size: 12px;
+        font-size: 16px;
      } 
 } 
