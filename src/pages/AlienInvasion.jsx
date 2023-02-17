@@ -97,7 +97,8 @@ function AlienInvasion() {
          enemy 10 points. The previous power ups are available in this mode, too.
         </p>
         <p>
-        You can play the game at<a href='https://scratch.mit.edu/projects/407620172' target='blank'>https://scratch.mit.edu/projects/407620172.</a> 
+        You can play the game 
+        <a href='https://scratch.mit.edu/projects/407620172' target='blank'>Here!</a> 
         </p>
       </div>
     </div>
