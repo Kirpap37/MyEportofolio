@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: center;
     color: white;
+    background-color: #21325e;
    
 }
 
@@ -24,7 +25,7 @@
     text-decoration: none;
     margin: 20px;
     font-size: 25px;
-    background-color: #21325e;
+
   }
   .navbar a:hover
   {
@@ -71,12 +72,39 @@
     width: 100%;
     text-align: center;
   }
+.resume{
+	position:fixed;
+	width:150px;
+	height:45px;
+  padding: 8px 5px;
+  font-size: 21px;
+	top:0.7%;
+	left:100px;
+	background:#04AA6D;
+	color:rgb(255, 255, 255);
+	border-radius:50px;
+	box-shadow: 2px 2px 3px #999;
+  text-decoration: none;
+  z-index: 500;
+}
 
+.resume:hover {
+  background-color: #3e8e41
+}
+
+.resume:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
   
 
   @media only screen and (max-width: 900px) {
-    .navbar a {
+    .navbar a:not(.resume) {
       width: 70px;
+    }
+    .resume{
+       left: 0%;
     }
   }
   
@@ -84,8 +112,12 @@
     .toggleButton {
       display: flex;
     }
-    #close a {
+    #close a:not(.resume) {
       display: none;
+    }
+    .resume{
+      left: 0%;
+     
     }
   }
   
@@ -105,4 +137,5 @@
     #open .links {
       flex-direction: row;
     }
+    
   }

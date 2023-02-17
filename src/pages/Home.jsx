@@ -5,7 +5,7 @@ import {
         SiCsharp, SiC , SiReact,  SiJavascript, SiHtml5, SiCss3, SiUnity, SiScratch   
        } from 'react-icons/si';
 import CV from '../assets/CV.jpg';
-import PDF from '../assets/CV_KIRIAKOS_PAPADOPOULOS.pdf';
+
 
 
 
@@ -15,9 +15,7 @@ function Home() {
   return (
   <div className='home'>
     <div className='about'>
-    <a href={PDF} target='blank' className="resume"> 
-     <p style={{margin:3}}>My Resume</p>
-    </a>
+  
       <img src={CV}  className="logo" alt='' />
       <h2>Hi, My Name is Kiriakos</h2>
       <div className='prompt'> 
